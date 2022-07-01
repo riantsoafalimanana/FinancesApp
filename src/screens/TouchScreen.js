@@ -1,12 +1,15 @@
 import React from 'react';
-import {View, Text, StyleSheet} from "react-native";
+import {View, StyleSheet} from "react-native";
 import styled from 'styled-components';
 import {Fontisto, MaterialIcons} from '@expo/vector-icons';
+import Text from "../components/Text";
 
 const TouchScreen = () => {
     return (
         <Container>
-
+            <Text>
+               Touch screen styled
+            </Text>
         </Container>
     );
 };
